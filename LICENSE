@@ -2,11 +2,6 @@ MIT License
 
 Copyright (c) 2026 MIKE (@mikenevermiss)
 
-This license covers the source code of MotionPromptGallery only. It does not
-cover the gallery content (prompts, code samples, videos, posters and other
-media in data/, public/videos/, public/posters/ and public/data/), which
-belongs to the respective creators credited on each entry.
-
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
