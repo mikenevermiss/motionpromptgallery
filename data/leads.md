@@ -124,7 +124,9 @@ _Last updated 2026-10-07. Rule for this gallery: an entry needs a real source UR
 - github.com/X-RayLuan/awesome-gpt-6-astra-prompts: the "community prompts" are rewritten or paraphrased (the README says "Do not copy commercial game IP"), so all were excluded. The original posts could be checked for the verbatim prompts.
 - OpenAI developer showcase (developers.openai.com/showcase): we used the 16 project pages whose "Model" field reads GPT-6 Astra and that publish their build prompts. Most of the other pages are tagged GPT-5.x or are API/app demos. These pages give no publish dates, so `postedAt` is null for OpenAI entries; check them again for new Astra projects.
 
-## 3. Claude Fable 5 (70 entries, 57 of them from one shared prompt)
+## 3. Claude Fable 5 (14 entries)
+
+At launch the gallery had 70 Fable 5 entries, 57 of them from one shared prompt (elder-plinius/FABLE-SHOWCASE). Only two of those are kept (Event Horizon and Synthwave Drive); the other 55, plus a Fable vs Opus flight-simulator comparison, are preserved in `data/removed-duplicates.json`.
 
 Posts from github.com/Anil-matcha/awesome-claude-fable-5 with no verbatim prompt in the post:
 

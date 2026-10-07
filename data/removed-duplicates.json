@@ -1,0 +1,1787 @@
+{
+ "note": "Entries removed from data/items.json before launch (2026-10-07). Nothing here was edited; each entry is preserved verbatim under \"entry\" so it can be restored by copying it back into data/items.json.",
+ "removedAt": "2026-10-07",
+ "count": 58,
+ "removed": [
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/arcana/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/arcana-the-generative-tarot-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-arcana",
+    "title": "Arcana — The Generative Tarot",
+    "slug": "arcana-the-generative-tarot-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/arcana",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/aurora/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/aurora-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-aurora",
+    "title": "Aurora",
+    "slug": "aurora-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/aurora",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/biome-globe/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/terra-minor-a-pocket-planet-observatory-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-biome-globe",
+    "title": "TERRA MINOR — A Pocket Planet Observatory",
+    "slug": "terra-minor-a-pocket-planet-observatory-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/biome-globe",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/boids/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/murmuration-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-boids",
+    "title": "Murmuration",
+    "slug": "murmuration-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/boids",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/cellular-cathedral/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/cellular-cathedral-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-cellular-cathedral",
+    "title": "Cellular Cathedral",
+    "slug": "cellular-cathedral-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/cellular-cathedral",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/chladni/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/chladni-resonance-bench-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-chladni",
+    "title": "CHLADNI — Resonance Bench",
+    "slug": "chladni-resonance-bench-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/chladni",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/chronos/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/chronos-a-clock-zoo-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-chronos",
+    "title": "Chronos — A Clock Zoo",
+    "slug": "chronos-a-clock-zoo-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/chronos",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/clockwork/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/clockwork-the-horologist-s-drafting-table-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-clockwork",
+    "title": "CLOCKWORK — The Horologist's Drafting Table",
+    "slug": "clockwork-the-horologist-s-drafting-table-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/clockwork",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/constellation/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/constellation-a-living-network-drawn-in-starlight-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-constellation",
+    "title": "Constellation — A living network, drawn in starlight",
+    "slug": "constellation-a-living-network-drawn-in-starlight-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/constellation",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/crystallize/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/crystallize-a-diffusion-limited-crystal-growth-lab-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-crystallize",
+    "title": "Crystallize — A Diffusion-Limited Crystal Growth Lab",
+    "slug": "crystallize-a-diffusion-limited-crystal-growth-lab-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/crystallize",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/darwin-derby/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/darwin-derby-speciation-grand-prix-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-darwin-derby",
+    "title": "Darwin Derby — Speciation Grand Prix",
+    "slug": "darwin-derby-speciation-grand-prix-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/darwin-derby",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/embers/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/embers-a-night-by-the-fire-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-embers",
+    "title": "Embers — A Night by the Fire",
+    "slug": "embers-a-night-by-the-fire-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/embers",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/fractal-voyager/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/fractal-voyager-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-fractal-voyager",
+    "title": "Fractal Voyager",
+    "slug": "fractal-voyager-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/fractal-voyager",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/galaxy-forge/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/galaxy-forge-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-galaxy-forge",
+    "title": "Galaxy Forge",
+    "slug": "galaxy-forge-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/galaxy-forge",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/glassworks/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/glassworks-atelier-de-lumi-re-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-glassworks",
+    "title": "Glassworks — Atelier de Lumière",
+    "slug": "glassworks-atelier-de-lumi-re-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/glassworks",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/harmonia/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/harmonia-the-circle-of-fifths-alive-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-harmonia",
+    "title": "Harmonia — The Circle of Fifths, Alive",
+    "slug": "harmonia-the-circle-of-fifths-alive-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/harmonia",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/hexcrawl/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/hexcrawl-the-cartographer-s-table-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-hexcrawl",
+    "title": "Hexcrawl — The Cartographer's Table",
+    "slug": "hexcrawl-the-cartographer-s-table-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/hexcrawl",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/infinite-cathedral/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/infinite-cathedral-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-infinite-cathedral",
+    "title": "Infinite Cathedral",
+    "slug": "infinite-cathedral-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/infinite-cathedral",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/ink-flow/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/ink-flow-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-ink-flow",
+    "title": "Ink Flow",
+    "slug": "ink-flow-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/ink-flow",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/kinetic-type/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/kinetic-type-living-letterforms-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-kinetic-type",
+    "title": "Kinetic Type — Living Letterforms",
+    "slug": "kinetic-type-living-letterforms-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/kinetic-type",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/koi-pond/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/stillwater-koi-pond-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-koi-pond",
+    "title": "静 — Stillwater · Koi Pond",
+    "slug": "stillwater-koi-pond-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/koi-pond",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/labyrinth/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/labyrinth-a-maze-algorithm-observatory-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-labyrinth",
+    "title": "LABYRINTH — A Maze Algorithm Observatory",
+    "slug": "labyrinth-a-maze-algorithm-observatory-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/labyrinth",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/lava-lamp/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/magma-a-liquid-light-instrument-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-lava-lamp",
+    "title": "MAGMA — A Liquid Light Instrument",
+    "slug": "magma-a-liquid-light-instrument-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/lava-lamp",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/loom/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/loom-weave-endless-geometry-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-loom",
+    "title": "Loom — weave endless geometry",
+    "slug": "loom-weave-endless-geometry-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/loom",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/lsystem-garden/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/verdant-an-l-system-conservatory-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-lsystem-garden",
+    "title": "VERDANT — An L-System Conservatory",
+    "slug": "verdant-an-l-system-conservatory-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/lsystem-garden",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/mandala/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/mandala-a-meditative-drawing-instrument-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-mandala",
+    "title": "Mandala — a meditative drawing instrument",
+    "slug": "mandala-a-meditative-drawing-instrument-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/mandala",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/metropolis/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/metropolis-a-city-that-dreams-itself-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-metropolis",
+    "title": "METROPOLIS — A City That Dreams Itself",
+    "slug": "metropolis-a-city-that-dreams-itself-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/metropolis",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/midnight-radio/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/midnight-radio-a-generative-ambient-station-for-late-hours-p.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-midnight-radio",
+    "title": "Midnight Radio — a generative ambient station for late hours",
+    "slug": "midnight-radio-a-generative-ambient-station-for-late-hours-p",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/midnight-radio",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/moth-lamp/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/moth-lamp-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-moth-lamp",
+    "title": "Moth & Lamp",
+    "slug": "moth-lamp-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/moth-lamp",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/neon-circuit/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/neon-circuit-a-generative-circuit-board-dreamscape-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-neon-circuit",
+    "title": "NEON CIRCUIT — A Generative Circuit-Board Dreamscape",
+    "slug": "neon-circuit-a-generative-circuit-board-dreamscape-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/neon-circuit",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/noir-terminal/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/noir-terminal-dead-air-on-channel-9-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-noir-terminal",
+    "title": "NOIR TERMINAL — Dead Air on Channel 9",
+    "slug": "noir-terminal-dead-air-on-channel-9-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/noir-terminal",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/ocean/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/halcyon-an-ocean-in-one-file-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-ocean",
+    "title": "HALCYON — An Ocean in One File",
+    "slug": "halcyon-an-ocean-in-one-file-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/ocean",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/oracle/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/oracle-the-obsidian-loom-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-oracle",
+    "title": "Oracle — The Obsidian Loom",
+    "slug": "oracle-the-obsidian-loom-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/oracle",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/orbital/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/orbital-a-gravity-sandbox-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-orbital",
+    "title": "Orbital — A Gravity Sandbox",
+    "slug": "orbital-a-gravity-sandbox-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/orbital",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/paper-garden/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/paper-garden-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-paper-garden",
+    "title": "Paper Garden",
+    "slug": "paper-garden-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/paper-garden",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/particle-life/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/primordia-a-laboratory-of-living-ink-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-particle-life",
+    "title": "Primordia — a laboratory of living ink",
+    "slug": "primordia-a-laboratory-of-living-ink-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/particle-life",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/pendulum-chaos/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/chaos-the-butterfly-cabinet-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-pendulum-chaos",
+    "title": "CHAOS — The Butterfly Cabinet",
+    "slug": "chaos-the-butterfly-cabinet-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/pendulum-chaos",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/pinball/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/nebula-tilt-neon-cosmos-pinball-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-pinball",
+    "title": "NEBULA TILT — Neon-Cosmos Pinball",
+    "slug": "nebula-tilt-neon-cosmos-pinball-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/pinball",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/poster-studio/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/helvetica-riot-poster-studio-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-poster-studio",
+    "title": "HELVETICA RIOT — Poster Studio",
+    "slug": "helvetica-riot-poster-studio-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/poster-studio",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/prism-synth/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/prism-generative-light-sequencer-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-prism-synth",
+    "title": "Prism — Generative Light Sequencer",
+    "slug": "prism-generative-light-sequencer-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/prism-synth",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/reaction-diffusion/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/reaction-a-reaction-diffusion-playground-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-reaction-diffusion",
+    "title": "Reaction — A Reaction-Diffusion Playground",
+    "slug": "reaction-a-reaction-diffusion-playground-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/reaction-diffusion",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/reef/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/reef-a-living-procedural-aquarium-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-reef",
+    "title": "REEF — A Living Procedural Aquarium",
+    "slug": "reef-a-living-procedural-aquarium-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/reef",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/sandfall/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/sandfall-an-alchemist-s-terrarium-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-sandfall",
+    "title": "SANDFALL — An Alchemist's Terrarium",
+    "slug": "sandfall-an-alchemist-s-terrarium-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/sandfall",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/shodo/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/shodo-generative-ink-calligraphy-studio-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-shodo",
+    "title": "Shodo — Generative Ink Calligraphy Studio",
+    "slug": "shodo-generative-ink-calligraphy-studio-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/shodo",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/slime-mold/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/physarum-living-ink-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-slime-mold",
+    "title": "Physarum — Living Ink",
+    "slug": "physarum-living-ink-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/slime-mold",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/starforge/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/starforge-forge-a-universe-from-a-single-seed-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-starforge",
+    "title": "Starforge — Forge a universe from a single seed",
+    "slug": "starforge-forge-a-universe-from-a-single-seed-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/starforge",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/swarm-symphony/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/swarm-symphony-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-swarm-symphony",
+    "title": "Swarm Symphony",
+    "slug": "swarm-symphony-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/swarm-symphony",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/terraform/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/terraform-cartographer-s-table-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-terraform",
+    "title": "Terraform — Cartographer's Table",
+    "slug": "terraform-cartographer-s-table-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/terraform",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/tidepool/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/tidepool-a-living-ecosystem-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-tidepool",
+    "title": "Tidepool — a living ecosystem",
+    "slug": "tidepool-a-living-ecosystem-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/tidepool",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/voxel-atelier/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/voxel-atelier-l-atelier-des-cubes-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-voxel-atelier",
+    "title": "Voxel Atelier — L'Atelier des Cubes",
+    "slug": "voxel-atelier-l-atelier-des-cubes-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/voxel-atelier",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/wavelab/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/wavelab-an-optics-bench-for-the-browser-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-wavelab",
+    "title": "Wavelab — An Optics Bench for the Browser",
+    "slug": "wavelab-an-optics-bench-for-the-browser-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/wavelab",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/weathervane/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/weathervane-a-living-weather-diorama-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-weathervane",
+    "title": "Weathervane — A Living Weather Diorama",
+    "slug": "weathervane-a-living-weather-diorama-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/weathervane",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/wfc-weaver/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/weaver-watch-order-emerge-from-chaos-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-wfc-weaver",
+    "title": "WEAVER — Watch Order Emerge from Chaos",
+    "slug": "weaver-watch-order-emerge-from-chaos-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/wfc-weaver",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/wordsmith/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/wordsmith-a-generative-poetry-atelier-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-wordsmith",
+    "title": "Wordsmith — A Generative Poetry Atelier",
+    "slug": "wordsmith-a-generative-poetry-atelier-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/wordsmith",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "duplicate-prompt",
+   "detail": "One of 57 Claude Fable 5 entries from github.com/elder-plinius/FABLE-SHOWCASE that all share the same verbatim prompt (\"ok i have a challenge for you! i need to use up my anthropic api credits...\"). Kept the two most distinctive pieces of the group: \"EVENT HORIZON — A Gravitational Light Study\" (fable5-plinius-event-horizon) and \"SYNTHWAVE DRIVE — Neon Horizon, Infinite Miles\" (fable5-plinius-synthwave).",
+   "keptInstead": [
+    "fable5-plinius-event-horizon",
+    "fable5-plinius-synthwave"
+   ],
+   "entry": {
+    "code": "Source: https://github.com/elder-plinius/FABLE-SHOWCASE/blob/main/zen-rake/index.html",
+    "tags": [
+     "generative",
+     "single file",
+     "multi-agent"
+    ],
+    "video": null,
+    "poster": "/posters/zen-rake-plinius.jpg",
+    "aspectRatio": "800/500",
+    "stack": "Claude Code · single index.html, zero dependencies",
+    "type": "prompt",
+    "id": "fable5-plinius-zen-rake",
+    "title": "Zen Rake — 枯山水",
+    "slug": "zen-rake-plinius",
+    "model": "Claude Fable 5",
+    "creatorName": "Pliny (elder-plinius)",
+    "handle": "@elder-plinius",
+    "postUrl": "https://github.com/elder-plinius/FABLE-SHOWCASE/tree/main/zen-rake",
+    "postedAt": "2026-07-07",
+    "prompt": "ok i have a challenge for you! i need to use up my anthropic api credits for the week in one day, and ONLY on fable 5!! lets see if we can't build something that leverages our claude code cli thats authed to build a bunch of epic demos for fable 5 of all sorts of different complex cool creative projects! leverage fable 5's full creativity and intelligence until our credits are gone!! tons of stuff in parallel!",
+    "sourceNote": "From github.com/elder-plinius/FABLE-SHOWCASE: 57 demos built by ~275 Claude Fable 5 sub-agent runs from one prompt (the prompt shown, verbatim from the README). Handle is the GitHub account. Date = repo commit date. Poster = the repo's own headless-browser thumbnail."
+   }
+  },
+  {
+   "reason": "not-motion-graphic",
+   "detail": "Not a motion piece: a 'build what you think you look like' self-portrait challenge posted as a Claude Sonnet 5.5 vs GPT-6 Astra comparison (was the first card on the homepage).",
+   "entry": {
+    "code": null,
+    "tags": [
+     "comparison"
+    ],
+    "video": null,
+    "poster": "/posters/build-what-you-think-you-look-like-siyabuilt.jpg",
+    "aspectRatio": "960/540",
+    "stack": "GPT-6 Astra",
+    "type": "prompt",
+    "id": "cmp-2104924603126603893",
+    "title": "“Build what you think you look like”",
+    "slug": "build-what-you-think-you-look-like-siyabuilt",
+    "model": "GPT-6 Astra",
+    "creatorName": "Siya",
+    "handle": "@siyabuilt",
+    "postUrl": "https://x.com/siyabuilt/status/2104924603126603893",
+    "postedAt": "2026-09-29",
+    "prompt": "Build what you think you look like",
+    "sourceNote": "Self-portrait challenge: Claude Sonnet 5.5 vs GPT-6 Astra. Prompt verbatim via jasonzhu.ai/en/prompts/claude-opus-5-5/2104924603126603893 (prompt source: https://x.com/siyabuilt/status/2104924603126603893); metadata from github.com/zhuyansen/awesome-opus-5.5-video. Poster is the X video thumbnail."
+   }
+  },
+  {
+   "reason": "not-motion-graphic",
+   "detail": "Benchmark post, not a motion piece: a four-model comparison (Claude Opus 5.5, GPT-6 Astra, GPT-6 Sol, GPT-6 Luna) from the @bridgebench benchmark account with the one-line prompt 'build a lava lamp.'",
+   "entry": {
+    "code": null,
+    "tags": [
+     "comparison"
+    ],
+    "video": null,
+    "poster": "/posters/lava-lamp-four-ways-bridgebench.jpg",
+    "aspectRatio": "960/540",
+    "stack": "GPT-6 Astra + GPT-6 Sol + GPT-6 Luna",
+    "type": "prompt",
+    "id": "cmp-2102770788319310302",
+    "title": "Lava lamp, four ways",
+    "slug": "lava-lamp-four-ways-bridgebench",
+    "model": "GPT-6 Astra",
+    "creatorName": "Bridgebench",
+    "handle": "@bridgebench",
+    "postUrl": "https://x.com/bridgebench/status/2102770788319310302",
+    "postedAt": "2026-09-23",
+    "prompt": "build a lava lamp.",
+    "sourceNote": "Four-model comparison (Claude Opus 5.5, GPT-6 Astra, GPT-6 Sol, GPT-6 Luna). Prompt verbatim via jasonzhu.ai/en/prompts/claude-opus-5-5/2102770788319310302 (prompt source: https://x.com/bridgebench/status/2102770788319310302); metadata from github.com/zhuyansen/awesome-opus-5.5-video. Poster is the X video thumbnail."
+   }
+  },
+  {
+   "reason": "not-motion-graphic",
+   "detail": "Plain model comparison, not a motion piece: a side-by-side Claude Fable 5 vs Claude Opus 5.5 post of a flight simulator game from the one-line prompt 'Build an ultra-realistic flight simulator.'",
+   "entry": {
+    "code": null,
+    "tags": [
+     "comparison"
+    ],
+    "video": null,
+    "poster": "/posters/ultra-realistic-flight-simulator-samuelrdt.jpg",
+    "aspectRatio": "960/599",
+    "stack": "Fable 5",
+    "type": "prompt",
+    "id": "cmp-2103420244018573385",
+    "title": "Ultra-realistic flight simulator",
+    "slug": "ultra-realistic-flight-simulator-samuelrdt",
+    "model": "Claude Fable 5",
+    "creatorName": "Samuel Rondot",
+    "handle": "@samuelrdt",
+    "postUrl": "https://x.com/samuelrdt/status/2103420244018573385",
+    "postedAt": "2026-09-25",
+    "prompt": "Build an ultra-realistic flight simulator.",
+    "sourceNote": "Side-by-side post: Claude Fable 5 vs Claude Opus 5.5. Prompt verbatim via jasonzhu.ai/en/prompts/claude-opus-5-5/2103420244018573385 (prompt source: https://x.com/samuelrdt/status/2103420244018573385); metadata from github.com/zhuyansen/awesome-opus-5.5-video. Poster is the X video thumbnail."
+   }
+  }
+ ]
+}
