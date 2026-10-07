@@ -1,6 +1,6 @@
 # MotionPromptGallery
 
-Live: https://motionpromptgallery.vercel.app
+Live: https://motionpromptgallery.com
 
 Motion graphics made with frontier AI models, next to the prompts that made them.
 Covers Claude Opus 5.5, Kimi K3, Claude Fable 5 and GPT-6 Astra.
@@ -40,7 +40,7 @@ The script normalizes model names, generates slugs and ids, probes aspect ratios
 ## Before launch
 
 - The contact address lives in `lib/site.ts` (`contactEmail`). It's used by the footer's "request removal" and "submit a piece" mailto links.
-- The public site URL defaults to https://motionpromptgallery.vercel.app (`DEFAULT_SITE_URL` in `lib/site.ts`). It drives `metadataBase`, canonical and `og:url`, the absolute `og:image` / `twitter:image` URLs, `sitemap.xml` and `robots.txt`.
+- The public site URL defaults to https://motionpromptgallery.com (`DEFAULT_SITE_URL` in `lib/site.ts`). It drives `metadataBase`, canonical and `og:url`, the absolute `og:image` / `twitter:image` URLs, `sitemap.xml` and `robots.txt`.
 - To move to a custom domain (for example https://motionpromptgallery.com once it's registered), set `NEXT_PUBLIC_SITE_URL=https://motionpromptgallery.com` in the Vercel project's environment variables and redeploy. That's the only change needed.
 - The default share card is `public/og.png` (1200x630, regenerate with `node scripts/make-og.mjs`). Entry pages use their own poster, falling back to `og.png`.
 
