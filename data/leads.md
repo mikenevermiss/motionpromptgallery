@@ -2,7 +2,7 @@
 
 _Last updated 2026-10-07. Rule for this gallery: an entry needs a real source URL **and** the creator's real prompt text (or a skill name/link). Everything below fails one of those checks, so none of it is in `data/items.json`. Each lead needs a human to open the post, read the prompt (often in a reply or an image), and then add it with `npm run add-item`._
 
-## 1. Kimi K3 (thinnest model: 18 entries)
+## 1. Kimi K3 (thinnest model: 25 entries)
 
 ### Frontend & motion posts with no published prompt (from github.com/Evolink-AI/awesome-kimi-k3-usecases)
 
@@ -14,7 +14,6 @@ _Last updated 2026-10-07. Rule for this gallery: an entry needs a real source UR
 - [@chongdashu](https://x.com/chongdashu/status/2077886028866531655): Build a Paper Mario-Inspired Game With Agent Tools (2026-07-16, Interactive Games & 3D)
 - [@bijanbowen](https://x.com/bijanbowen/status/2077881805751873997): Generate a Subway First-Person Shooter (2026-07-16, Interactive Games & 3D)
 - [@chetaslua](https://x.com/chetaslua/status/2077952938564354503): Create Motion Design Entirely in Code (2026-07-17, Frontend & Motion Design)
-- [@nicky_sap](https://x.com/nicky_sap/status/2077857190707429411): Research a Person and Build an Animated Personal Site (2026-07-16, Frontend & Motion Design)
 - [@chetaslua](https://x.com/chetaslua/status/2077961850352971796): Generate a Black Hole Simulation (2026-07-17, Frontend & Motion Design)
 - [@aisearchio](https://x.com/aisearchio/status/2077962156147146925): Model a V8 Engine With Blender MCP (2026-07-17, Interactive Games & 3D)
 - [@karminski3](https://x.com/karminski3/status/2077889959223337099): Test Complex Frontend Modeling, Particles, and Shaders (2026-07-16, Frontend & Motion Design)
@@ -27,7 +26,6 @@ _Last updated 2026-10-07. Rule for this gallery: an entry needs a real source UR
 - [@filicroval](https://x.com/filicroval/status/2077871090731221438): Invent a Luxury Bread Cutter and Its Product Page (2026-07-16, Frontend & Motion Design)
 - [@AngryTomtweets](https://x.com/AngryTomtweets/status/2077868163136450619): Build a Browser-Based 3D Wuxia RPG (2026-07-16, Interactive Games & 3D)
 - [@Alezander907](https://x.com/Alezander907/status/2077926014710407407): Build a Browser Multiplayer Minecraft-Like Game (2026-07-17, Interactive Games & 3D)
-- [@1littlecoder](https://x.com/1littlecoder/status/2077880380900937865): Generate a Ten-Second Recursive Pelican GIF (2026-07-16, Frontend & Motion Design)
 - [@ridark_eth](https://x.com/ridark_eth/status/2077882889803378969): Recreate a Split-Screen Cooperative Browser Game (2026-07-16, Interactive Games & 3D)
 - [@naymur_dev](https://x.com/naymur_dev/status/2077873562661335207): Generate a Playable Game With Command Code Design Mode (2026-07-16, Interactive Games & 3D)
 - [@TokenGremlin](https://x.com/TokenGremlin/status/2077855657068310620): Assemble a Cohesive Wuxia Browser RPG (2026-07-16, Interactive Games & 3D)
@@ -50,7 +48,6 @@ _Last updated 2026-10-07. Rule for this gallery: an entry needs a real source UR
 - [@fabriciocarraro](https://x.com/fabriciocarraro/status/2078574831466078265): Redesign a Personal Site Across Models (2026-07-18, Frontend & Motion Design)
 - [@startracker](https://x.com/startracker/status/2078543423167160342): Expand a Space Game Landscape (2026-07-18, Interactive Games & 3D)
 - [@mattwatkajtys](https://x.com/mattwatkajtys/status/2078523373861339475): Unblock a Three.js Physics Renderer (2026-07-18, Interactive Games & 3D)
-- [@MiaAI_lab](https://x.com/MiaAI_lab/status/2078508824752017757): Build an Interactive Human Scalp Explorer (2026-07-18, Frontend & Motion Design)
 - [@hqmank](https://x.com/hqmank/status/2078465403349840144): Share a 3D Globe Dashboard Prompt (2026-07-18, Frontend & Motion Design)
 - [@prasenx](https://x.com/prasenx/status/2078453069021659477): Build Browser Counter-Strike in One File (2026-07-18, Interactive Games & 3D)
 - [@MAXdeg0](https://x.com/MAXdeg0/status/2078855257686196399): Run Five UI UX Design Tests (2026-07-19, Frontend & Motion Design)
@@ -90,17 +87,27 @@ _Last updated 2026-10-07. Rule for this gallery: an entry needs a real source UR
 
 ### Other Kimi K3 leads
 
-- Reddit r/ClaudeCode [1v26jmi](https://www.reddit.com/r/ClaudeCode/comments/1v26jmi/): animated Strandbeest (Theo Jansen mechanism). A search snippet showed the prompt *"An Animated Strandbeest (Theo Jansen Mechanism): a walking mechanical beast made of interconnected rods and joints, make it walk in place using three js."*, but Reddit blocks our fetchers, so the creator, model attribution and date are unconfirmed.
-- Reddit r/kimi [1uyb1sn](https://www.reddit.com/r/kimi/comments/1uyb1sn/): Tortoise and Hare animation made with K3. Couldn't be read (Reddit blocked).
 - Reddit r/LocalLLaMA [1uyaiw2](https://www.reddit.com/r/LocalLLaMA/comments/1uyaiw2/): the K3 release video, reportedly made with K3. Couldn't be read.
 - [github.com/genglintong/kimi-k3-lebron-tribute](https://github.com/genglintong/kimi-k3-lebron-tribute): the README only paraphrases the prompt ("essentially…"). Ask the creator for the verbatim prompt.
-- @ggg78g89 city block (hyper3d.ai listing): the prompt shown there is a summary, not verbatim.
+- @ggg78g89 city block (hyper3d.ai listing): the prompt shown there is a summary, not verbatim. The linked post (x.com/choblin29/status/2080724552422924382) is actually an Opus 5 vs Fable 5 / GPT-5.6 Sol / Kimi K3 / Qwen comparison by @choblin29, so it isn't a K3 piece.
 - Kimi's own launch blog: a 3Blue1Brown-style explainer and the teaser. No prompts published.
 - hyper3d.ai Kimi K3 game listings (Tripo citations): most are games rather than motion pieces, and many prompts are summaries.
 - [github.com/HarleyCoops/KimiK3Manim](https://github.com/HarleyCoops/KimiK3Manim): MinimalSurfaces / SlowFast / Rhombicosidodecahedron renders are described as earlier work (possibly K2), so they were excluded.
 - AlysisAI Sun visualizer: tagged Claude Opus 5 (not K3) on tripo3d.ai, so it was excluded.
 
-## 2. GPT-6 Astra (30 entries)
+### New Kimi K3 leads (2026-10-07 pass)
+- Eduardo Navajas, "Prompt 2: creador de personajes, Kimi Code" (edunavajas.com/blog/kimi-k3): the verbatim prompt is published (voxel character creator with idle/walk/run/dance animations). Not added because it's mainly a customizer UI; add it if character-animation tools count. Video: youtube.com/watch?v=Wgm6DepUGLs.
+- Reddit r/MotionDesign [1v950f4](https://www.reddit.com/r/MotionDesign/comments/1v950f4/): "I used Kimi K3 + HyperFrames to generate a complete motion graphics launch video from a single prompt" (28 s, HTML/GSAP scenes). Search copies don't show the verbatim prompt or the author.
+- Reddit r/kimi [1v20bou](https://www.reddit.com/r/kimi/comments/1v20bou/): K3 "Skylands" Three.js world. It links to ai-world-bakeoff.pages.dev, a 10-model × 3-world benchmark with identical briefs, so it was excluded as a benchmark.
+- Reddit r/Anthropic [1v0x5ap](https://www.reddit.com/r/Anthropic/comments/1v0x5ap/) (u/notNIHAL, Kimi 3 vs Fable 5 paper craft): uses the UnSora MCP (a video-generation pipeline), so it was excluded.
+- [@hqmank](https://x.com/hqmank/status/2078465403349840144): 3D globe dashboard. The prompt and reference are posted as images only, so they would need hand transcription.
+- [@0xzynex](https://x.com/0xzynex/status/2078920667542487230): voxel soccer goal, K3 vs GPT-5.6. The "challenge" is described, not quoted as a prompt, and it's a side-by-side comparison.
+- [@DilumSanjaya](https://x.com/DilumSanjaya/status/2080335531108716750): hexapod robot simulator ("Code: Kimi K3"). No prompt.
+- [@viktoroddy](https://x.com/viktoroddy/status/2078140696910037002): K3 website tutorial. The prompts are behind motionsites.ai.
+- [@ivanfioravanti](https://x.com/ivanfioravanti/status/2077763009657627055): Voxel pod-racer V1 (prompt "Voxel star wars pod-racers run"). Skipped as a game rather than a motion piece.
+- threejseval.com/models/kimi-k3-high and testingmodels.com/blog/kimi-k3-review: benchmark write-ups, not individual pieces.
+
+## 2. GPT-6 Astra (43 entries)
 
 ### Video and motion showcases with no prompt (from github.com/magiccreator-ai/awesome-gpt-6-astra)
 
@@ -124,7 +131,15 @@ _Last updated 2026-10-07. Rule for this gallery: an entry needs a real source UR
 - github.com/X-RayLuan/awesome-gpt-6-astra-prompts: the "community prompts" are rewritten or paraphrased (the README says "Do not copy commercial game IP"), so all were excluded. The original posts could be checked for the verbatim prompts.
 - OpenAI developer showcase (developers.openai.com/showcase): we used the 16 project pages whose "Model" field reads GPT-6 Astra and that publish their build prompts. Most of the other pages are tagged GPT-5.x or are API/app demos. These pages give no publish dates, so `postedAt` is null for OpenAI entries; check them again for new Astra projects.
 
-## 3. Claude Fable 5 (14 entries)
+### Astra comparison posts with verbatim prompts (excluded as split-screen model comparisons)
+- [@demonugc](https://x.com/demonugc/status/2105412081692352654): pyramids diorama, GPT-6 Astra vs "Fable 5" on one split screen (JSON prompt in the post).
+- [@JohnKlerAI](https://x.com/JohnKlerAI/status/2096637194270134742): rotating Earth in Blender, Fable 5.1 vs Astra.
+- [@free_ai_guides](https://x.com/free_ai_guides/status/2098909584996057283) origami, [kinetic sand table](https://x.com/free_ai_guides/status/2098831830002851846) and [railway](https://x.com/free_ai_guides/status/2099362575339372780): Fable 5.1 vs Astra, with the exact prompts in the replies. If single-model crops were allowed, these would be easy adds.
+- [@Chris_Wozniczek](https://x.com/Chris_Wozniczek/status/2096593372311941143): Totality Engine 32 s animation. The full prompt is on chris-website-theta.vercel.app/compare.html?prompt=totality-engine. The post is a comparison; his original Astra post wasn't located.
+- [@MatthewLebo_](https://x.com/MatthewLebo_/status/2105047166733746209): Three.js rocket launch, a 3-way comparison.
+- Others with no verbatim prompt: Romain Huet's Peach's Castle (prompt described, not quoted), Jonas Fröller's shader (GPT 6 Pro, not Astra), [@wafffle_dev](https://x.com/wafffle_dev/status/2096459076486214083) Masara-style town (no prompt; his Tokyo Tower reply was added).
+
+## 3. Claude Fable 5 (15 entries)
 
 At launch the gallery had 70 Fable 5 entries, 57 of them from one shared prompt (elder-plinius/FABLE-SHOWCASE). Only two of those are kept (Event Horizon and Synthwave Drive); the other 55, plus a Fable vs Opus flight-simulator comparison, are preserved in `data/removed-duplicates.json`.
 
@@ -133,8 +148,8 @@ Posts from github.com/Anil-matcha/awesome-claude-fable-5 with no verbatim prompt
 - [@deveshcodes_](https://x.com/deveshcodes_/status/2064437742189379745): one-prompt black hole simulation
 - [@kieradev](https://x.com/kieradev/status/2064482704763085202): two-sentence racing game
 - [@quanghuynt14](https://x.com/quanghuynt14/status/2064509430650065278): Swiss lever watchmaker benchmark
-- [@tetumemo](https://x.com/tetumemo/status/2064477582930989357): solar system simulation (the prompt is in Japanese; a translation wouldn't be verbatim)
 - [@atomic_chat_hq](https://x.com/atomic_chat_hq/status/2064488894398161377): physics simulation comparison
+- [@noclipepe](https://x.com/noclipepe/status/2081403842256605254): "Build an ultra-realistic 3D flight simulator." This is a comparison (Fable 5 vs others) and a game, so it was skipped.
 
 ### Not added: "Claude Fable 5.5" preview posts (a different model)
 
@@ -186,11 +201,11 @@ github.com/zhuyansen/awesome-opus-5.5-video tags these posts as Fable 5.5, not F
 - github.com/yihui-dev/awesome-opus5-5-videos has 475 entries; we kept 80 (motion and explainer, deduped). Its "interactive" and "3d" categories are untapped.
 
 ## 5. Sources that couldn't be read
-- reddit.com: blocked for both our fetcher and curl.
+- reddit.com: blocked for both our fetcher and curl. Search-engine copies of a post can still show its title, author and quoted prompt; that's how the Strandbeest and Tortoise & Hare entries were sourced (no media).
 - unrollnow / thread readers: JS challenge.
 - A Tencent Cloud article on Kimi K3 demos: timed out.
 - github.com/estelledc (a K3 collection): the clone needed authentication.
-- X itself: posts can't be read without signing in, so prompts posted only as replies or images still have to be collected by hand.
+- X itself: posts can't be read without signing in. Tip: `https://api.fxtwitter.com/2/thread/<id>` returns the author's own reply chain, which is where most "prompt in reply" texts live. Prompts posted only as images, or in replies by other people, still have to be collected by hand.
 
 ## 6. X accounts and searches to watch
 - Accounts: @p4nthera (prompt-motion.com), @zhuyansen, @OpenAIDevs, @Kimi_Moonshot, @AnthropicAI, @elder_plinius, @ivanfioravanti, @chetaslua, @abhinavflac, @karminski3, @1littlecoder, @viktoroddy, @AngryTomtweets, @MiaAI_lab, @hqmank, @jadeferrara_, @N01ennn, @TokenGremlin, @nicky_sap, @scottstts, @siyabuilt, @koldo2k.
