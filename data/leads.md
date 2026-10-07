@@ -2,7 +2,7 @@
 
 _Last updated 2026-10-07. Rule for this gallery: an entry needs a real source URL **and** the creator's real prompt text (or a skill name/link). Everything below fails one of those checks, so none of it is in `data/items.json`. Each lead needs a human to open the post, read the prompt (often in a reply or an image), and then add it with `npm run add-item`._
 
-## 1. Kimi K3 (thinnest model: 25 entries)
+## 1. Kimi K3 (thinnest model: 39 entries)
 
 ### Frontend & motion posts with no published prompt (from github.com/Evolink-AI/awesome-kimi-k3-usecases)
 
@@ -107,7 +107,19 @@ _Last updated 2026-10-07. Rule for this gallery: an entry needs a real source UR
 - [@ivanfioravanti](https://x.com/ivanfioravanti/status/2077763009657627055): Voxel pod-racer V1 (prompt "Voxel star wars pod-racers run"). Skipped as a game rather than a motion piece.
 - threejseval.com/models/kimi-k3-high and testingmodels.com/blog/kimi-k3-review: benchmark write-ups, not individual pieces.
 
-## 2. GPT-6 Astra (43 entries)
+### Kimi K3 leads from the second pass (2026-10-07)
+- Sulat one-shot catalogue ([k3.demos.sulat.com](https://k3.demos.sulat.com/)): 349 Kimi K3 demos, each with a public `PROMPT.md`. Eight motion pieces were added. More motion-leaning candidates with verbatim prompts: rocket-launch, tornado, wheatfield (samurai in a wind-swept field), black-hole-simulation, helicopter-sim, 3d-japanese-village (day cycle), cyberpunk-city-scene, terafab (scroll explainer), llm-lifecycle and coding-harness-explainer (3D explainers). Sulat publishes no dates or videos, only thumbnails.
+- [@devloper_hs](https://x.com/devloper_hs/status/2078168452544766398): Meteor City Revival, with a video and the verbatim prompt in his thread [2079590488315949335](https://x.com/devloper_hs/status/2079590488315949335). Skipped because it's a destruction game with a win condition. Paper Plane ([2079590401187701093](https://x.com/devloper_hs/status/2079590401187701093)) is also a game.
+- Tencent Cloud dev community [2715419](https://developer.cloud.tencent.com/article/2715419) (南泉青年): SPI protocol timing page. The prompt is verbatim ("画一个交互页面来展示标准 SPI 协议的时序。"), but the result is mostly a diagram.
+- sspai [112544](https://sspai.com/post/112544) (玉树芝兰): the tutorial animations (yushuzhilan.pages.dev) have only a partly quoted prompt. The 3D tank game is a game. The GIF of the tank game is a recording by Jackywine, not the author.
+- Juejin [7664854685195632675](https://juejin.cn/post/7664854685195632675) (王不二丶bOol): verbatim prompts for a Matrix digital-rain blog page and a 3D solar system. Juejin blocked our fetcher for images and video, so there is no media.
+- [github.com/HarleyCoops/KimiK3Manim](https://github.com/HarleyCoops/KimiK3Manim) `torus/instructions.txt`: a verbatim prompt, but nothing says it was made with K3.
+- Kimi K3 tech blog (kimi.com/blog/kimi-k3): case videos (open world, GBA emulator, web-swing, typewriter, fighting game, voxel colosseum, wuxia RPG, FPS arena) have no prompts in the blog. The matching kimi.ai showcases are games.
+- Mankyu [@manaimovie](https://x.com/manaimovie/status/2093264438107529714): Kimi K3 previz tool (sponsored by Kimi). It's a tool UI with no prompt.
+- [heygen-com/hyperframes-launches](https://github.com/heygen-com/hyperframes-launches) `k3-promo`: a HyperFrames replica of the Kimi K3 promo. Nothing says it was built with K3.
+- Excluded comparisons and benchmarks: guancha.cn Kakeya multi-model test, Zhihu 302.AI vs Opus, AI World Bakeoff, RemakeBench, the Choblin city block, and @emollick's Ox Alpha vs K3 follow-up.
+
+## 2. GPT-6 Astra (44 entries)
 
 ### Video and motion showcases with no prompt (from github.com/magiccreator-ai/awesome-gpt-6-astra)
 
@@ -139,7 +151,17 @@ _Last updated 2026-10-07. Rule for this gallery: an entry needs a real source UR
 - [@MatthewLebo_](https://x.com/MatthewLebo_/status/2105047166733746209): Three.js rocket launch, a 3-way comparison.
 - Others with no verbatim prompt: Romain Huet's Peach's Castle (prompt described, not quoted), Jonas Fröller's shader (GPT 6 Pro, not Astra), [@wafffle_dev](https://x.com/wafffle_dev/status/2096459076486214083) Masara-style town (no prompt; his Tokyo Tower reply was added).
 
+### Astra leads from the second pass (2026-10-07)
+- [@HiltonMisia](https://x.com/HiltonMisia/status/2096907617117540478): one-shot Hogwarts scene in headless Blender, with the prompt in the self-reply. Skipped because the video is a dark screen recording of an explorable scene with the app chrome showing.
+- [@walterzhu8](https://x.com/walterzhu8/status/2100139076816916977): Blender MCP room scene with articulated drawers and doors. The prompt is verbatim, but the work is credited to his student @JamChaos1, and it needs an input photo.
+- No prompt published: [@goncalo_canhoto](https://x.com/goncalo_canhoto/status/2096298425914450021) (Terreiro do Paço in Blender), [@amberrr_zip](https://x.com/amberrr_zip/status/2096096998092841449) (Suzhou Museum garden walkthrough), [@synthwavedd](https://x.com/synthwavedd/status/2095840435319001278) (Three.js naval war scene) and [@Rogue0114](https://x.com/Rogue0114/status/2096358854275543457) (tavern simulation, 3 prompts).
+- [@MyWestLord](https://x.com/MyWestLord/status/2099588840419651890): hotel corridor ("create hotel corridor scene"). The video is only 464 px wide. [@JulianGoldieSEO](https://x.com/JulianGoldieSEO/status/2101224659861590399): "Surprise me" Blender world, a 9-minute marketing video, and it's unclear who made it.
+- Sulat ([astra.demos.sulat.com](https://astra.demos.sulat.com/)): 19 GPT-6 Astra one-shot demos with `PROMPT.md` (black-hole-simulation, sakura voxel diorama, pagoda garden), but only thumbnails, no video.
+- Excluded: [@marcthecreatorr](https://x.com/marcthecreatorr/status/2103486103831339269) (a "space bunny alpha" vs Astra comparison), plus the PixVerse and @MadMax_Series posts (a video model rendered the footage).
+
 ## 3. Claude Fable 5 (15 entries)
+
+- Second pass (2026-10-07): the remaining tripo3d/hyper3d Fable 5 listings are comparisons (@noclipepe flight sim: Opus 5 vs Fable 5; @MartinPulitano New York: GPT 5.6 Sol) or games. Sulat's fable.demos.sulat.com has only 5 demos (FPS, Ubuntu, watch, mint, fighters), none of them motion pieces. No new Fable 5 pieces with video were found.
 
 At launch the gallery had 70 Fable 5 entries, 57 of them from one shared prompt (elder-plinius/FABLE-SHOWCASE). Only two of those are kept (Event Horizon and Synthwave Drive); the other 55, plus a Fable vs Opus flight-simulator comparison, are preserved in `data/removed-duplicates.json`.
 
@@ -203,6 +225,8 @@ github.com/zhuyansen/awesome-opus-5.5-video tags these posts as Fable 5.5, not F
 ## 5. Sources that couldn't be read
 - reddit.com: blocked for both our fetcher and curl. Search-engine copies of a post can still show its title, author and quoted prompt; that's how the Strandbeest and Tortoise & Hare entries were sourced (no media).
 - unrollnow / thread readers: JS challenge.
+- syndication.twitter.com timeline-profile (e.g. @Kimi_Moonshot): "Rate limit exceeded" (429) for the whole second pass, so Moonshot's own posts and quote posts couldn't be listed. fxtwitter has no timeline route.
+- juejin.cn article pages and API: JS challenge or empty responses. kimi.com/inspiration renders client-side only.
 - A Tencent Cloud article on Kimi K3 demos: timed out.
 - github.com/estelledc (a K3 collection): the clone needed authentication.
 - X itself: posts can't be read without signing in. Tip: `https://api.fxtwitter.com/2/thread/<id>` returns the author's own reply chain, which is where most "prompt in reply" texts live. Prompts posted only as images, or in replies by other people, still have to be collected by hand.
