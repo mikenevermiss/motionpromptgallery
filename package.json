@@ -1,0 +1,31 @@
+{
+  "name": "motionpromptgallery",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predev": "node scripts/prepare-data.mjs",
+    "dev": "next dev",
+    "prebuild": "node scripts/prepare-data.mjs",
+    "build": "next build",
+    "start": "npx serve out",
+    "add-item": "node scripts/add-item.mjs",
+    "validate": "node scripts/add-item.mjs --validate",
+    "screenshots": "node scripts/screenshots.mjs"
+  },
+  "dependencies": {
+    "geist": "^1.7.2",
+    "next": "^15.5.27",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "autoprefixer": "^10.6.1",
+    "playwright": "^1.63.0",
+    "postcss": "^8.5.29",
+    "serve": "^14.2.6",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.9.3"
+  }
+}
