@@ -94,12 +94,14 @@ export function validate(it, { slugs = new Set(), ids = new Set() } = {}) {
     else if (!fs.existsSync(path.join(PUBLIC, it[k]))) errs.push(`${k} file not found: public${it[k]}`);
   }
   if (!Array.isArray(it.tags)) errs.push('tags must be an array');
+  if (it.featured != null && !(Number.isInteger(it.featured) && it.featured > 0)) errs.push('featured must be a positive integer rank (1 = first card) or omitted');
+  if (it.featured != null && !it.video) errs.push('featured pieces need a video');
   if (it.slug && slugs.has(it.slug)) errs.push(`duplicate slug "${it.slug}"`);
   if (it.id && ids.has(it.id)) errs.push(`duplicate id "${it.id}"`);
   return errs;
 }
 
-const ORDER = ['id', 'title', 'slug', 'model', 'type', 'creatorName', 'handle', 'postUrl', 'postedAt', 'stack', 'prompt', 'code', 'tags', 'video', 'poster', 'aspectRatio', 'sourceNote'];
+const ORDER = ['id', 'title', 'slug', 'model', 'type', 'creatorName', 'handle', 'postUrl', 'postedAt', 'stack', 'prompt', 'code', 'tags', 'video', 'poster', 'aspectRatio', 'sourceNote', 'featured'];
 const ordered = (it) => Object.fromEntries([...ORDER.filter((k) => k in it).map((k) => [k, it[k]]), ...Object.entries(it).filter(([k]) => !ORDER.includes(k))]);
 
 function main() {
@@ -107,17 +109,19 @@ function main() {
   const items = JSON.parse(fs.readFileSync(DATA, 'utf8'));
 
   if (args.includes('--validate')) {
-    const slugs = new Set(), ids = new Set();
+    const slugs = new Set(), ids = new Set(), ranks = new Set();
     let bad = 0;
     for (const it of items) {
       const errs = validate(it, { slugs, ids });
+      if (it.featured != null && ranks.has(it.featured)) errs.push(`duplicate featured rank ${it.featured}`);
+      if (it.featured != null) ranks.add(it.featured);
       if (it.slug !== slugify(it.slug)) errs.push('slug is not url-safe');
       slugs.add(it.slug);
       ids.add(it.id);
       if (errs.length) bad++, console.error(`✗ ${it.slug || it.title}: ${errs.join('; ')}`);
     }
     const per = items.reduce((m, i) => ((m[i.model] = (m[i.model] || 0) + 1), m), {});
-    console.log(`${items.length} items, ${items.filter((i) => i.video).length} with video, ${bad} invalid`);
+    console.log(`${items.length} items, ${items.filter((i) => i.video).length} with video, ${ranks.size} featured, ${bad} invalid`);
     console.log(per);
     process.exit(bad ? 1 : 0);
   }

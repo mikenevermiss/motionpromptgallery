@@ -18,6 +18,8 @@ export interface Item {
   poster: string | null;
   aspectRatio: string | null;
   sourceNote?: string;
+  /** Homepage rank (1 = first card). Featured pieces lead the default order; leave unset for everything else. */
+  featured?: number | null;
 }
 
 /** Light version shipped with every page; prompt/code are loaded on demand. */

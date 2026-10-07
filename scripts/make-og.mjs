@@ -6,7 +6,9 @@ import path from 'node:path';
 
 const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const items = JSON.parse(fs.readFileSync(path.join(root, 'data/items.json'), 'utf8'));
-const posters = items.filter((i) => i.poster && i.video).slice(0, 8).map((i) => 'data:image/' + (i.poster.endsWith('.jpg') ? 'jpeg' : 'webp') + ';base64,' + fs.readFileSync(path.join(root, 'public', i.poster)).toString('base64'));
+// Featured pieces first (by rank), so the share card matches the homepage's first screen.
+const rank = (i) => i.featured ?? Infinity;
+const posters = items.filter((i) => i.poster && i.video).sort((a, b) => rank(a) - rank(b)).slice(0, 8).map((i) => 'data:image/' + (i.poster.endsWith('.jpg') ? 'jpeg' : 'webp') + ';base64,' + fs.readFileSync(path.join(root, 'public', i.poster)).toString('base64'));
 const html = `<!doctype html><html><head><style>
 *{box-sizing:border-box;margin:0}body{width:1200px;height:630px;font-family:Inter,ui-sans-serif,system-ui,sans-serif;background:#fff;color:#0a0a0a;display:flex;overflow:hidden}
 .l{width:560px;padding:72px 56px;display:flex;flex-direction:column;justify-content:space-between}

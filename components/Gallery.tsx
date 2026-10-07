@@ -2,17 +2,22 @@
 import { useCallback, useDeferredValue, useEffect, useMemo, useRef, useState } from 'react';
 import type { LiteItem } from '@/lib/types';
 import { MODELS } from '@/lib/types';
-import { MODEL_STYLE } from '@/lib/format';
+import { hash, MODEL_STYLE } from '@/lib/format';
 import { SITE } from '@/lib/site';
 import Card from './Card';
 import Modal, { type Full } from './Modal';
 import Toast from './Toast';
 
 type TypeFilter = 'all' | 'prompt' | 'skill';
-type Sort = 'newest' | 'oldest';
+type Sort = 'featured' | 'newest' | 'oldest';
 
 const norm = (s: string) => s.toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '');
 const time = (d: string | null) => (d ? Date.parse(d) : 0);
+const ratioOf = (it: LiteItem) => {
+  const r = it.aspectRatio || ['4/5', '1/1', '4/3', '3/4'][hash(it.slug) % 4]; // same fallback as Card
+  const [w, h] = r.split('/').map(Number);
+  return w && h ? w / h : 1;
+};
 const slugFromPath = (p: string) => p.match(/^\/p\/([^/]+)\/?$/)?.[1] ?? null;
 
 interface Props {
@@ -25,7 +30,8 @@ export default function Gallery({ items, initialSlug, initialFull }: Props) {
   const [query, setQuery] = useState('');
   const [model, setModel] = useState<string>('all');
   const [type, setType] = useState<TypeFilter>('all');
-  const [sort, setSort] = useState<Sort>('newest');
+  const [sort, setSort] = useState<Sort>('featured');
+  const [cols, setCols] = useState<number | null>(null); // null until mounted: CSS columns for SSR / no-JS
   const [paused, setPaused] = useState(false);
   const [reduceMotion, setReduceMotion] = useState(false);
   const [openSlug, setOpenSlug] = useState<string | null>(initialSlug ?? null);
@@ -50,6 +56,16 @@ export default function Gallery({ items, initialSlug, initialFull }: Props) {
     upd();
     mq.addEventListener('change', upd);
     return () => mq.removeEventListener('change', upd);
+  }, []);
+
+  // Row-major masonry: CSS columns fill top-to-bottom, which would push featured cards below the fold,
+  // so once mounted we distribute cards into flex columns in reading order (shortest column first).
+  useEffect(() => {
+    const qs = ['(min-width: 640px)', '(min-width: 1024px)', '(min-width: 1536px)'].map((q) => window.matchMedia(q));
+    const upd = () => setCols(1 + qs.filter((q) => q.matches).length);
+    upd();
+    qs.forEach((q) => q.addEventListener('change', upd));
+    return () => qs.forEach((q) => q.removeEventListener('change', upd));
   }, []);
 
   const togglePaused = () => {
@@ -102,7 +118,9 @@ export default function Gallery({ items, initialSlug, initialFull }: Props) {
   }, [items, model, matchesQuery]);
   const visible = useMemo(() => {
     const v = base.filter((it) => model === 'all' || it.model === model);
-    return sort === 'newest' ? v : [...v].sort((a, b) => time(a.postedAt) - time(b.postedAt) || a.title.localeCompare(b.title));
+    if (sort === 'featured') return v; // items arrive pre-sorted (featured, then video, then newest)
+    const dir = sort === 'newest' ? -1 : 1;
+    return [...v].sort((a, b) => dir * (time(a.postedAt) - time(b.postedAt)) || a.title.localeCompare(b.title));
   }, [base, model, sort]);
 
   // progressive rendering: render a page of cards, add more as the user nears the end
@@ -182,6 +200,17 @@ export default function Gallery({ items, initialSlug, initialFull }: Props) {
 
   const Heading = initialSlug ? 'h2' : 'h1';
   const shown = visible.slice(0, limit);
+  const columns = useMemo(() => {
+    if (!cols || cols < 2) return null;
+    const out: { it: LiteItem; i: number }[][] = Array.from({ length: cols }, () => []);
+    const h = new Array(cols).fill(0);
+    shown.forEach((it, i) => {
+      const c = h.indexOf(Math.min(...h));
+      out[c].push({ it, i });
+      h[c] += 1 / ratioOf(it) + 0.2; // media height + caption, in column widths
+    });
+    return out;
+  }, [shown, cols]);
   const canPlay = !paused && !reduceMotion && !openSlug;
   const reset = () => {
     setQuery('');
@@ -247,6 +276,7 @@ export default function Gallery({ items, initialSlug, initialFull }: Props) {
                   onChange={(e) => setSort(e.target.value as Sort)}
                   className="h-9 appearance-none rounded-full border border-neutral-200 bg-white pl-3.5 pr-8 text-[13px] font-medium text-neutral-700 outline-none hover:border-neutral-300 dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-300"
                 >
+                  <option value="featured">Featured</option>
                   <option value="newest">Newest</option>
                   <option value="oldest">Oldest</option>
                 </select>
@@ -305,11 +335,23 @@ export default function Gallery({ items, initialSlug, initialFull }: Props) {
           {reduceMotion && ' · previews paused (reduced motion)'}
         </p>
         {visible.length ? (
-          <div className="columns-1 gap-5 sm:columns-2 sm:gap-6 lg:columns-3 2xl:columns-4">
-            {shown.map((it, i) => (
-              <Card key={it.slug} item={it} index={i % PAGE} canPlay={canPlay} onOpen={open} />
-            ))}
-          </div>
+          columns ? (
+            <div className="flex items-start gap-5 sm:gap-6">
+              {columns.map((col, c) => (
+                <div key={c} className="min-w-0 flex-1">
+                  {col.map(({ it, i }) => (
+                    <Card key={it.slug} item={it} index={i % PAGE} canPlay={canPlay} onOpen={open} />
+                  ))}
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div className="columns-1 gap-5 sm:columns-2 sm:gap-6 lg:columns-3 2xl:columns-4">
+              {shown.map((it, i) => (
+                <Card key={it.slug} item={it} index={i % PAGE} canPlay={canPlay} onOpen={open} />
+              ))}
+            </div>
+          )
         ) : (
           <div className="flex flex-col items-center justify-center rounded-3xl border border-dashed border-neutral-200 py-24 text-center dark:border-neutral-800">
             <p className="text-sm font-medium">Nothing matches that yet.</p>

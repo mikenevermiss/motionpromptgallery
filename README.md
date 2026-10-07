@@ -19,7 +19,9 @@ npm run screenshots  # headless Chromium screenshots of out/ into screenshots/
 
 ## Content
 
-- `data/items.json`: every entry. Fields: id, title, slug, model, type (`prompt` | `skill`), creatorName, handle, postUrl, postedAt, stack, prompt, code, tags, video, poster, aspectRatio, sourceNote.
+- `data/items.json`: every entry. Fields: id, title, slug, model, type (`prompt` | `skill`), creatorName, handle, postUrl, postedAt, stack, prompt, code, tags, video, poster, aspectRatio, sourceNote, and optional `featured`.
+- `featured`: a rank (1 = first card) for pieces that lead the homepage. The default "Featured" order is featured pieces by rank, then pieces with video, then stills, newest first within each. Featured pieces must have a video.
+- `data/removed-duplicates.json`: entries taken out before launch (repeated prompts and non-motion comparison posts), kept verbatim with the reason so they can be restored.
 - `public/videos/*.mp4` and `public/posters/*`: media referenced by `video` and `poster`.
 - `data/leads.md`: pieces we found but couldn't add yet (no verbatim prompt, unreadable source, and so on).
 
@@ -38,7 +40,9 @@ The script normalizes model names, generates slugs and ids, probes aspect ratios
 ## Before launch
 
 - The contact address lives in `lib/site.ts` (`contactEmail`). It's used by the footer's "request removal" and "submit a piece" mailto links.
-- Set `NEXT_PUBLIC_SITE_URL` if you deploy somewhere other than https://motionpromptgallery.com.
+- The public site URL defaults to https://motionpromptgallery.vercel.app (`DEFAULT_SITE_URL` in `lib/site.ts`). It drives `metadataBase`, canonical and `og:url`, the absolute `og:image` / `twitter:image` URLs, `sitemap.xml` and `robots.txt`.
+- To move to a custom domain (for example https://motionpromptgallery.com once it's registered), set `NEXT_PUBLIC_SITE_URL=https://motionpromptgallery.com` in the Vercel project's environment variables and redeploy. That's the only change needed.
+- The default share card is `public/og.png` (1200x630, regenerate with `node scripts/make-og.mjs`). Entry pages use their own poster, falling back to `og.png`.
 
 ## License
 
