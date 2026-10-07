@@ -16,12 +16,19 @@ export const metadata: Metadata = {
     siteName: SITE.name,
     title: SITE.name,
     description: SITE.tagline,
-    url: '/',
-    images: [{ url: '/og.png', width: 1200, height: 630, alt: SITE.name }],
+    url: `${SITE.url}/`,
+    images: [{ url: SITE.ogImage, width: 1200, height: 630, alt: `${SITE.name}: ${SITE.tagline}`, type: 'image/png' }],
   },
-  twitter: { card: 'summary_large_image', title: SITE.name, description: SITE.tagline, images: ['/og.png'], creator: SITE.curator.handle },
+  twitter: {
+    card: 'summary_large_image',
+    title: SITE.name,
+    description: SITE.tagline,
+    images: [{ url: SITE.ogImage, alt: `${SITE.name}: ${SITE.tagline}` }],
+    site: SITE.curator.handle,
+    creator: SITE.curator.handle,
+  },
   icons: { icon: '/favicon.svg' },
-  alternates: { canonical: '/' },
+  alternates: { canonical: `${SITE.url}/` },
 };
 
 export const viewport: Viewport = {

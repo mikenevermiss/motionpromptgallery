@@ -20,8 +20,11 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const excerpt = it.prompt.replace(/\s+/g, ' ').trim().slice(0, 155);
   const title = `${it.title} by ${it.handle}`;
   const description = `${it.model} ${it.type} · ${excerpt}${it.prompt.length > 155 ? '…' : ''}`;
-  const image = it.poster || '/og.png';
-  const url = `/p/${it.slug}/`;
+  // Absolute URLs so X/Twitter and other scrapers never have to resolve relative paths.
+  const image = it.poster
+    ? { url: new URL(it.poster, SITE.url).toString(), alt: it.title }
+    : { url: SITE.ogImage, width: 1200, height: 630, alt: it.title, type: 'image/png' };
+  const url = `${SITE.url}/p/${it.slug}/`;
   return {
     title,
     description,
@@ -33,11 +36,11 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
       url,
       title,
       description,
-      images: [{ url: image, alt: it.title }],
+      images: [image],
       ...(it.video ? { videos: [{ url: new URL(it.video, SITE.url).toString(), type: 'video/mp4' }] } : {}),
       ...(it.postedAt ? { publishedTime: it.postedAt } : {}),
     },
-    twitter: { card: 'summary_large_image', title, description, images: [image] },
+    twitter: { card: 'summary_large_image', title, description, images: [{ url: image.url, alt: it.title }], site: SITE.curator.handle },
   };
 }
 
